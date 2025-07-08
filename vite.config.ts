@@ -5,4 +5,8 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
   ],
+  server: {
+    allowedHosts: [".freestyle.sh"],
+    port: 3000,
+  },
 })

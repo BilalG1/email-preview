@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { render } from '@react-email/components'
-import EmailTheme from './email-theme'
+import { EmailTheme } from './email-theme'
 import PreviewContent from './preview-content'
 
 export default function App() {

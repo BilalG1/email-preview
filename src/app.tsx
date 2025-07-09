@@ -11,6 +11,6 @@ export default function App() {
   }, [])
 
   return (
-    <iframe srcDoc={html} className="mx-auto border-0" />
+    <iframe srcDoc={html} className="mx-auto border-0 h-dvh" />
   )
 }
